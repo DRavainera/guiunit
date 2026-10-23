@@ -34,9 +34,6 @@ using System.Security.Principal;
 #endif
 
 using NUnit.Framework.Api;
-#if !NETCF
-using System.Runtime.Remoting.Messaging;
-#endif
 
 namespace NUnit.Framework.Internal
 {
